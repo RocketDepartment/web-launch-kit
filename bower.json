@@ -1,0 +1,21 @@
+{
+  "name": "scout-v2",
+  "version": "0.0.0",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#~0.2.3",
+    "polymer-elements": "Polymer/polymer-elements#~0.2.3",
+    "polymer-ui-elements": "Polymer/polymer-ui-elements#~0.2.3"
+  }
+}
