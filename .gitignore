@@ -3,4 +3,5 @@ temp
 dist
 .sass-cache
 bower_components/
+build/
 .tmp/
