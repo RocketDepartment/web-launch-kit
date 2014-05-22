@@ -14,9 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "core-elements": "Polymer/core-elements#~0.2.3",
-    "polymer-elements": "Polymer/polymer-elements#~0.2.3",
-    "polymer-ui-elements": "Polymer/polymer-ui-elements#~0.2.3",
     "exoskeleton": "~0.6.3",
     "react.backbone": "~0.3.0",
     "react": "~0.10.0"
