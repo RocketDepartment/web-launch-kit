@@ -1,0 +1,26 @@
+@import 'normalize';
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+	background: #5508a0;
+}
+
+#welcome {
+    background: white;
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    margin-left: -250px;
+    margin-top: -175px;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: #333;
+
+    h1 {
+        font-size: 18px;
+    }
+}

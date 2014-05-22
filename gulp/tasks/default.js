@@ -1,3 +1,3 @@
 var gulp = require('gulp');
 
-gulp.task('default', ['build', 'watch', 'nodemon', 'open']);
+gulp.task('default', ['build', 'watch','browserify-watch', 'nodemon', 'open']);

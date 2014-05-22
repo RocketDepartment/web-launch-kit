@@ -6,10 +6,9 @@ gulp.task('watch', function() {
 
 	var reload = function(file) {
 		server.changed(file.path);
-	};
+	}
 
-	gulp.watch('app/scripts/**', ['browserify']);
-	gulp.watch('app/styles/**', ['sass']);
-	gulp.watch('app/img/**', ['images']);
+	gulp.watch('app/assets/styles/**', ['sass']);
+	gulp.watch('app/assets/img/**', ['images']);
 	gulp.watch(['build/**']).on('change', reload);
 });

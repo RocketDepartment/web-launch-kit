@@ -20,6 +20,7 @@ app.use(bodyParser());
 app.use(express.static( path.join( __dirname, '../app') ));
 app.use(express.static( path.join( __dirname, '../build') ));
 app.use('/bower_components',  express.static( path.join( __dirname, '../bower_components' ) ));
+app.use('/vendor',  express.static( path.join( __dirname, '../vendor' ) ));
 
 app.get('/', routes.index );
 
