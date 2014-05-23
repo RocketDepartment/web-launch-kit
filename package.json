@@ -40,6 +40,7 @@
     "node-restful": "~0.1.16",
     "body-parser": "~1.1.2",
     "watchify": "~0.10.1",
-    "reactify": "~0.13.1"
+    "reactify": "~0.13.1",
+    "debowerify": "~0.7.1"
   }
 }
