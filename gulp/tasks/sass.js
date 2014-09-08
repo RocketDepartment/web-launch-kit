@@ -9,6 +9,6 @@ gulp.task('sass', function() {
             errLogToConsole: true,
             sourceComments: 'map'
         }))
-        .pipe(gulp.dest('./build/assets/css'))
-        .on('error', handleErrors);
+        .on('error', handleErrors)
+        .pipe(gulp.dest('./build/assets/css'));
 });
