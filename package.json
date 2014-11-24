@@ -1,5 +1,5 @@
 {
-  "name": "Scout",
+  "name": "System Ops",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -29,7 +29,6 @@
     "gulp-changed": "^1.0.0",
     "gulp-filter": "^1.0.2",
     "gulp-imagemin": "^1.0.1",
-    "gulp-livereload": "~1.2.0",
     "gulp-nodemon": "~1.0.2",
     "gulp-notify": "~1.2.4",
     "gulp-open": "~0.2.8",
