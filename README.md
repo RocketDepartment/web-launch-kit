@@ -1,4 +1,3 @@
-<p><markdown>
 #Markdown Live Editor#
 ##Rocket Dept. Web Starter
 
@@ -43,4 +42,3 @@ Site will be available at http://localhost:3000
   [1]: http://bourbon.io
   [2]: http://neat.bourbon.io
   [3]: http://nodejs.org
-</markdown></p>
