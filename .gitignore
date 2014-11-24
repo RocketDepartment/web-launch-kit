@@ -2,6 +2,7 @@ node_modules
 temp
 dist
 .sass-cache
-bower_components/
-build/
-.tmp/
+bower_components
+build
+.tmp
+.DS_Store
