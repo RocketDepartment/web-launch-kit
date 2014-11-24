@@ -1,4 +1,3 @@
-#Markdown Live Editor#
 ##Rocket Dept. Web Starter
 
 This is the Rocket Department, Inc. starting project for all websites and web apps.
