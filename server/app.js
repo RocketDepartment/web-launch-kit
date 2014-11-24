@@ -9,9 +9,6 @@ var app = express();
 var server = http.createServer(app);
 var routes = require('./routes');
 
-var io = require('./lib/socketio').listen(server);
-var Resource = require('./models/resource').register(app);
-
 // configure express app
 app.set('port', 9000);
 app.use(bodyParser());
@@ -19,8 +16,6 @@ app.use(bodyParser());
 // mount static files for use on client side
 app.use(express.static( path.join( __dirname, '../app') ));
 app.use(express.static( path.join( __dirname, '../build') ));
-app.use('/bower_components',  express.static( path.join( __dirname, '../bower_components' ) ));
-app.use('/vendor',  express.static( path.join( __dirname, '../vendor' ) ));
 
 app.get('/', routes.index );
 

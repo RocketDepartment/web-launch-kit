@@ -10,8 +10,7 @@
   "license": "ISC",
   "browserify": {
     "transform": [
-      "browserify-shim",
-      "debowerify"
+      "browserify-shim"
     ]
   },
   "browserify-shim": {
@@ -24,7 +23,6 @@
     "body-parser": "~1.1.2",
     "browserify": "~3.36.0",
     "browserify-shim": "~3.4.1",
-    "debowerify": "~0.7.1",
     "express": "~4.1.1",
     "gulp": "^3.8.8",
     "gulp-changed": "^1.0.0",
@@ -34,11 +32,7 @@
     "gulp-notify": "~1.2.4",
     "gulp-open": "~0.2.8",
     "gulp-sass": "~0.7.1",
-    "hbsfy": "~1.3.2",
-    "mongoose": "~3.8.9",
-    "node-restful": "~0.1.16",
     "reactify": "~0.13.1",
-    "socket.io": "^1.1.0",
     "vinyl-source-stream": "~0.1.1",
     "watchify": "~0.10.1"
   }
