@@ -21,11 +21,13 @@
   },
   "devDependencies": {
     "body-parser": "~1.1.2",
+    "browser-sync": "^1.7.1",
     "browserify": "~3.36.0",
     "browserify-shim": "~3.4.1",
     "express": "~4.1.1",
     "gulp": "^3.8.8",
     "gulp-changed": "^1.0.0",
+    "gulp-filter": "^1.0.2",
     "gulp-imagemin": "^1.0.1",
     "gulp-livereload": "~1.2.0",
     "gulp-nodemon": "~1.0.2",
