@@ -15,6 +15,7 @@ This is the Rocket Department, Inc. starting project for all websites and web ap
  - CSS: Autoprefixes, combines media queries and minifies
  - JS: Minifies
  - Page Speed Insights
+ 
 ####In Progress
  - SVG Webfont generator for icons
 
