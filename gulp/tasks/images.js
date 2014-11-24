@@ -6,6 +6,6 @@ gulp.task('images', function() {
     var dest = './build/assets/img';
     return gulp.src('./app/assets/img/**/*.*')
         .pipe(changed(dest))
-        .pipe(imagemin())
+        .pipe(imagemin({progressive: true}))
         .pipe(gulp.dest(dest));
 });
