@@ -1,13 +1,10 @@
-var gulp       = require('gulp');
+var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 
-gulp.task('watch', ['browser-sync'], function() {
-
-    var reload = function(file) {
-        server.changed(file.path);
-    }
-
+gulp.task('watch', function() {
     gulp.watch('app/assets/styles/**', ['sass']);
+    gulp.watch('app/assets/fonts/**', ['fonts']);
     gulp.watch('app/assets/img/**', ['images']);
-    gulp.watch(['build/**.{js, html}']).on('change', browserSync.reload);
+    // gulp.watch('app/scripts/**/*.js', ['browserify']);
+    gulp.watch(['build/**/*.{js, html}']).on('change', browserSync.reload);
 });

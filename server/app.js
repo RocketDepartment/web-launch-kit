@@ -17,7 +17,7 @@ app.use(bodyParser());
 app.use(express.static( path.join( __dirname, '../app') ));
 app.use(express.static( path.join( __dirname, '../build') ));
 
-app.get('/', routes.index );
+// app.get('/', routes.index );
 
 server.listen(app.get('port'), function(){
     console.log('its go time');

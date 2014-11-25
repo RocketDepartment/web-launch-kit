@@ -12,7 +12,6 @@ gulp.task('sass', function() {
             errLogToConsole: true,
             sourceComments: 'map'
         }))
-        .on('error', handleErrors)
         .pipe(gulp.dest('./build/assets/css'))
         .pipe(filter('**/*.css'))
         .pipe(reload({stream:true})); 

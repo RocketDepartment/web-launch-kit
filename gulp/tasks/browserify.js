@@ -19,8 +19,8 @@ function scripts(watch) {
     rebundle = function() {
         var stream = bundler.bundle({debug: true});
         stream.on('error', handleErrors);
-        stream = stream.pipe(source('app.js'));
-        return stream.pipe(gulp.dest('./build/'));
+        stream = stream.pipe(source('main.js'));
+        return stream.pipe(gulp.dest('./build/scripts'));
     };
 
     bundler.on('update', rebundle);
