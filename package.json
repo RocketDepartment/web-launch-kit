@@ -44,6 +44,7 @@
     "psi": "^0.1.5",
     "reactify": "~0.13.1",
     "vinyl-source-stream": "~0.1.1",
-    "watchify": "~0.10.1"
+    "watchify": "~0.10.1",
+    "debowerify": "~1.0.1"
   }
 }
