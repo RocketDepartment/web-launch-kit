@@ -8,11 +8,11 @@ var cmq          = require('gulp-combine-media-queries');
 gulp.task('min-css', function() {
   gulp.src('./build/assets/css/main.css')
     .pipe(autoprefixer({
-        browsers: ['last 2 versions'],
-        cascade: false
+      browsers: ['last 2 versions'],
+      cascade: false
     }))
     .pipe(cmq({
-        log: true
+      log: true
     }))
     .pipe(filesize())
     .pipe(minifyCSS())
